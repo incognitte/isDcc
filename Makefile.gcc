@@ -1,0 +1,14 @@
+# makefile for GCC/EGCS
+
+CC = gcc -O2
+OBJS =  isDcc.o util.o header.o decode.o output.o optimise.o
+EXE = isdcc.exe
+LIBS = 
+RM = rm -f
+
+
+all:	$(OBJS)
+	$(CC) -o $(EXE) $(OBJS) $(LIBS)
+
+clean: 
+	$(RM) *.exe *.o *~ *#

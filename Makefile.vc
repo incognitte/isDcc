@@ -1,0 +1,17 @@
+# makefile for Microsoft Visual C++ (using cygwin make)
+
+CC = cl -nologo /DMSC=1
+OBJS =  isDcc.obj util.obj header.obj decode.obj output.obj optimise.obj
+EXE = isdcc.exe
+LIBS = 
+RM = //c/command.com /c rm -f 
+
+
+all:	$(OBJS)
+	$(CC) -o $(EXE) $(OBJS) $(LIBS)
+
+clean: 
+	$(RM) *.exe *.obj *~ *#
+
+%.obj: %.c
+	$(CC) -c $<
