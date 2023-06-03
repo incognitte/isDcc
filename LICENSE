@@ -1,0 +1,41 @@
+Legal:
+
+* Permission is granted to any individual or institution to use, copy, or 
+  redistribute this software so long as all of the original files are 
+  included unmodified, that it is not sold for profit, and that this copyright
+  notice is retained.
+
+* If you wish to use any code from this package in another product,
+  or wish to sell it as a standalone product, you *must* contact me.
+
+* Feel free to develop the code, but remember that you are not allowed to
+  distribute the modified copies. Send me a copy of your additions, and
+  I shall include them in the next version (indicating which parts of
+  the code are whose, naturally).
+
+* This software is provided "as is". The author annot be held responsible
+  for any loss of data, or other misfortunes resulting from the use of this
+  program.
+
+* Likewise, the author cannot be held responsible for the use, or misuse of
+  this software.
+  
+
+  Acknowledgements:
+----------------------------------
+
+NaTzGUL/SiraX for the original Installshield decompiler (Wisdec). Without 
+this excellent program, it would not have been possible to write this, since 
+I would not have been able to fiddle with the compiled files and see what
+did what.
+
+freejazz@hotpop.com for his patches to fix labels properly...
+croock@friko.onet.pl for another scipr with an unknown opcode...
+
+And.. various anonymous donators who supplied me with other scripts, and patches
+to fix memory problems.....
+
+isDcc v1.22
+(c) 1998 Andrew de Quincey
+http://www.tardis.ed.ac.uk/~adq
+adq@tardis.ed.ac.uk
